@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora Básica</title>
     <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
@@ -11,38 +11,35 @@
     <div id="calculator">
         <input type="text" value="0">   
         <div id="primer"> 
-            <button id="num1">C</button>
-            <button id="num2">DEL</button>
-            
+            <button id="limpiar">C</button>
+            <button id="eliminar">DEL</button>
         </div>
-    <div id="primera_ilera"> 
-        <button id="num1">7</button>
-        <button id="num2">8</button>
-        <button id="num3">9</button>
-        <button id="num4">+</button>
+        <div id="primera_ilera"> 
+            <button id="7">7</button>
+            <button id="8">8</button>
+            <button id="9">9</button>
+            <button id="sumar">+</button>
+        </div>
+        <div id="segunda_ilera">
+            <button id="4">4</button>
+            <button id="5">5</button>
+            <button id="6">6</button>
+            <button id="restar">-</button>
+        </div>
+        <div id="tercera_ilera">
+            <button id="1">1</button>
+            <button id="2">2</button>
+            <button id="3">3</button>
+            <button id="multiplicar">*</button>
+        </div>
+        <div id="cuarta_ilera">
+            <button id="dividir">/</button>
+            <button id="0">0</button>
+            <button id="punto">.</button>
+            <button id="igual">=</button>
+        </div>
     </div>
 
-    <div id="segunda_ilera">
-        <button id="num4">4</button>
-        <button id="num5">5</button>
-        <button id="num6">6</button>
-        <button id="resta">-</button>
-    </div>
-
-    <div id="tercera_ilera">
-        <button id="num1">1</button>
-        <button id="num2">2</button>
-        <button id="num3">3</button>
-        <button id="multi">*</button>
-    </div>
-
-    <div id="cuarta_ilera">
-        <button id="num1">&divide;</button>
-        <button id="num2">0</button>
-        <button id="num3">.</button>
-        <button id="multi">=</button>
-    </div>
-    </div>
-
+    <script src="./operaciones.js"></script>
 </body>
 </html>
